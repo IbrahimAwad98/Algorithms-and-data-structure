@@ -17,6 +17,7 @@ Detta är ett utbildningsprojekt som implementerar klassiska datastrukturer frå
 - Parentesmatchning med stack
 - Rekursiva algoritmer (fakultet, GCD, binärsökning, linjärsökning)
 - Backtracking-problem (labyrintlösning, elevatorproblem, brick puzzle)
+- Sorteringsalgoritmer (QuickSort, MergeSort, ShellSort, Selection Sort, Insertion Sort)
 - Iteratorer för anpassade datastrukturer
 
 ## Teknikstack
@@ -70,10 +71,42 @@ Algorithms-and-data-structure/
 │       ├── NB15.java       # Binär till decimal
 │       ├── CoinMachine.java
 │       └── Test.java       # Vägar i rutnät
-└── backtracking/           # Backtracking-problem
-    └── src/
-        ├── Maze.java       # Labyrintlösare
-        ├── BrickPuzzle.java # Brädspel med BFS
-        ├── BulletsGame.java # Spel med rekursiv backtracking
-        ├── Elevator.java   # Elevatorproblem
-        └── LinkedList.java # Rekursiv länkad lista
+├── backtracking/           # Backtracking-problem
+│   └── src/
+│       ├── Maze.java       # Labyrintlösare
+│       ├── BrickPuzzle.java # Brädspel med BFS
+│       ├── BulletsGame.java # Spel med rekursiv backtracking
+│       ├── Elevator.java   # Elevatorproblem
+│       └── LinkedList.java # Rekursiv länkad lista
+├── sorting/                # Sorteringsalgoritmer
+│   └── src/
+│       ├── QuickSort.java  # QuickSort-implementation
+│       ├── MergeSort.java  # MergeSort-implementation
+│       ├── ShellSort.java  # ShellSort-implementation
+│       ├── SelectAndInsert.java # Selection & Insertion Sort
+│       ├── DiviAndConq.java # Divide and Conquer-algoritmer
+│       ├── Car.java        # Bil-klass för sorteringsexempel
+│       ├── CarMain.java    # Huvudprogram för bil-sortering
+│       ├── CompareCar.java # Comparator för bilar
+│       └── Main.java       # Huvudprogram för sortering
+└── laboratories/           # Laborationsuppgifter
+```
+
+## Installation och användning
+
+1. Klona repositoryt:
+```bash
+git clone https://github.com/IbrahimAwad98/Algorithms-and-data-structure.git
+```
+
+2. Öppna projektet i din Java IDE (t.ex. IntelliJ IDEA)
+
+3. Navigera till önskad modul (t.ex. Stack, Queue, sorting) och kör Main.java eller specifika testfiler
+
+## Bidrag
+
+Detta är ett utbildningsprojekt. Förslag och förbättringar är välkomna!
+
+## Licens
+
+Detta projekt är skapat för utbildningsändamål.
