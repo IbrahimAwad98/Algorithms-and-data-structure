@@ -91,22 +91,3 @@ Algorithms-and-data-structure/
 │       └── Main.java       # Huvudprogram för sortering
 └── laboratories/           # Laborationsuppgifter
 ```
-
-## Installation och användning
-
-1. Klona repositoryt:
-```bash
-git clone https://github.com/IbrahimAwad98/Algorithms-and-data-structure.git
-```
-
-2. Öppna projektet i din Java IDE (t.ex. IntelliJ IDEA)
-
-3. Navigera till önskad modul (t.ex. Stack, Queue, sorting) och kör Main.java eller specifika testfiler
-
-## Bidrag
-
-Detta är ett utbildningsprojekt. Förslag och förbättringar är välkomna!
-
-## Licens
-
-Detta projekt är skapat för utbildningsändamål.
