@@ -1,0 +1,8 @@
+Model [ Audi], EST: 2018, Milage= 8000.0
+Model [ BMW], EST: 2010, Milage= 45000.0
+Model [ Ford], EST: 2008, Milage= 80000.0
+Model [ Honda], EST: 2014, Milage= 22000.0
+Model [ Mercedes], EST: 2020, Milage= 3000.0
+Model [ Toyota], EST: 2012, Milage= 30000.0
+Model [ Volvo], EST: 2015, Milage= 12000.0
+Model [ Volvo], EST: 2019, Milage= 5000.0
