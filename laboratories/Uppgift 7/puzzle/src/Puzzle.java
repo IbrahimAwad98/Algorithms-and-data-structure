@@ -1,4 +1,5 @@
 public class Puzzle {
+    // 3D array
     private static final int[][][] ROTATIONS = {
             {{0, 0}, {1, 0}, {0, 1}}, // R0
             {{0, 0}, {1, 0}, {0, -1}}, // R1
@@ -6,10 +7,8 @@ public class Puzzle {
             {{0, 0}, {-1, 0}, {0, -1}}  // R3
     };
     private static final int SIZE = 5;
-    private int[][] board;
-    private int grayRow;
-    private int grayCol;
-    private int nrOfSolutions;
+    private int[][] board; //2D
+    private int grayRow, grayCol, nrOfSolutions;
 
     public Puzzle(int grayRow, int grayCol) {
         this.board = new int[SIZE][SIZE];
@@ -26,7 +25,7 @@ public class Puzzle {
                     continue; //grå rutan som inte täckas
                 }
                 if (board[r][c] == 0) {
-                    return new int[]{r, c}; //
+                    return new int[]{r, c}; //rutan tom return position som array
                 }
             }
         }
@@ -55,7 +54,7 @@ public class Puzzle {
                 if (fits(rot, anchorRow, anchorCol)) {
                     place(rot, anchorRow, anchorCol);
                     solve();
-                    remove(rot, anchorRow, anchorCol);
+                    remove(rot, anchorRow, anchorCol); //Backtracking
                 }
             }
         }
